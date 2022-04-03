@@ -16,6 +16,8 @@ class IndexController extends HomeBaseController
 {
     public function index()
     {
-        return $this->fetch(':index');
+        //  return 'Hello Thinkcmf';
+          return $this->fetch(':contact');
+       // return $this->fetch(':index');
     }
 }
