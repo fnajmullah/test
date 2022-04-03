@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>联系我们</title>
+    <title>contact us</title>
     <meta name="keywords" content="{$site_info.site_seo_keywords|default=''}"/>
     <meta name="description" content="{$site_info.site_seo_description|default=''}">
     <include file="public@head"/>
@@ -22,7 +22,7 @@
 <div class="section slice no-padding">
     <div id="mapCanvas" class="map-canvas no-margin" style="height: 450px;">
         <php>
-            $company_location=empty($theme_vars['company_location'])?'121.449222,31.193348':$theme_vars['company_location'];
+            $company_location=empty($theme_vars['company_location'])?'3216670.4187818156,4981794.50414015':$theme_vars['company_location'];
             $company_location=explode(',',$company_location);
             $company_location_lng=$company_location[0];
             $company_location_lat=$company_location[1];
@@ -51,8 +51,8 @@
             <if condition="empty($guestbook) && cmf_get_current_admin_id()">
                 <div style="border: 1px dashed #ddd;min-height: 300px;padding-top: 100px;">
                     <div class="alert alert-warning" role="alert">
-                        此区域这为留言区，请安装留言插件！<br>
-                        <em>注：普通用户不会看到此提示！</em>
+                        This area is the message area, please install the message plugin！<br>
+                        <em>Note: Normal users will not see this prompt!</em>
                     </div>
                 </div>
             </if>
@@ -61,15 +61,15 @@
         <div class="col-md-6">
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="section-title">联系方式</h3>
+                    <h3 class="section-title">Contact information</h3>
                     <div class="contact-info">
-                        <h5>地址</h5>
-                        <p>{$theme_vars.address_cn|default=''}</p>
+                        <h5>address</h5>
+                        <p>Sümer Mahallesi, Tüccarlar Saret Şarküteri, 18. Sk. No:29, 34025 Zeytinburnu/İstanbul,TR</p>
 
-                        <h5>邮箱</h5>
+                        <h5>Mail</h5>
                         <p>{$theme_vars.email|default=''}</p>
 
-                        <h5>电话</h5>
+                        <h5>telephone</h5>
                         <p>{$theme_vars.phone_cn|default=''}</p>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                         <p>{$theme_vars.email|default=''}</p>
 
                         <h5>Phone</h5>
-                        <p>{$theme_vars.phone_en|default=''}</p>
+                        <p>0212 558 44 28</p>
                     </div>
                 </div>
             </div>
@@ -92,8 +92,8 @@
                 $company_qq=explode(',',$company_qq);
             </php>
             <notempty name="company_qq">
-                <h3 class="section-title">快捷交流</h3>
-                <p>点击以下QQ图标，免加好友即时洽谈合作</p>
+                <h3 class="section-title">quick communication</h3>
+                <p>Click the QQ icon below to discuss cooperation instantly without adding friends</p>
                 <div class="social-media">
                     <foreach name="company_qq" item="qq">
                         <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin={$qq}&site=qq&menu=yes">

@@ -23,8 +23,8 @@
                 }
             },
             "address_cn": {
-                "title": "公司地址",
-                "value": "上海市徐汇区斜土路0001号",
+                "title": "Company Address (Sino)",
+                "value": "Sümer Mahallesi, Tüccarlar Saret Şarküteri, 18. Sk. No:29, 34025 Zeytinburnu/İstanbul,TR",
                 "type": "text",
                 "tip": "",
                 "rule": {
@@ -32,8 +32,8 @@
                 }
             },
             "address_en": {
-                "title": "公司地址（英文）",
-                "value": "NO.0001 Xie Tu Road, Shanghai China",
+                "title": "Company Address (English)",
+                "value": "Sümer Mahallesi, Tüccarlar Saret Şarküteri, 18. Sk. No:29, 34025 Zeytinburnu/İstanbul,TR",
                 "type": "text",
                 "tip": "",
                 "rule": {
@@ -41,8 +41,8 @@
                 }
             },
             "email": {
-                "title": "公司邮箱",
-                "value": "catman@thinkcmf.com",
+                "title": "Company email",
+                "value": "fridoon@gmail.com",
                 "type": "text",
                 "tip": "",
                 "rule": {
@@ -51,7 +51,7 @@
             },
             "phone_cn": {
                 "title": "公司电话",
-                "value": "021 1000 0001",
+                "value": "0212 558 44 28",
                 "type": "text",
                 "tip": "",
                 "rule": {
@@ -59,8 +59,8 @@
                 }
             },
             "phone_en": {
-                "title": "公司电话（英文）",
-                "value": "+8621 1000 0001",
+                "title": "Company Phone (English)",
+                "value": "+90 212 558 44 28",
                 "type": "text",
                 "tip": "",
                 "rule": {
